@@ -2,6 +2,8 @@ import collections
 import importlib.util
 import os
 from collections import deque
+collections.Sequence = collections.abc.Sequence
+collections.Mapping = collections.abc.Mapping
 
 import six
 
